@@ -6,6 +6,7 @@ import util from 'util';
   const files = await fs.readdir('.');
   for (let f of files) {
     console.log(f);
+    console.logz("aaa");
   }
 })().catch(err => {
   console.error(err);
